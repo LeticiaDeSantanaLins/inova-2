@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receba a Benção</title>
+    <title>Seja Abençoado!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,7 +12,8 @@
     <!-- CONTEÚDO -->
     <div class="conteudo">
 
-        <h1> Mesmo nos dias silenciosos, ainda existe esperança.</h1>
+        <h1> Não se desanime se <br>
+             as coisas parecerem difíceis agora!</h1>
         <p> Clique abaixo para receber uma mensagem especial.</p>
         <button onclick="receberBencao()"> Receba a Benção!</button>
     </div>
@@ -21,11 +22,13 @@
     <!-- POPUP -->
     <div class="popup" id="popup">
 
-        <div class="popup-box">
-            <h2>✨ Sua mensagem ✨</h2>
-            <p id="mensagem"> Você é mais forte do que imagina. </p>
-        </div>
-    </div>
+<div class="popup-box">
+    <h2 id="tituloMensagem"> Isaías 41:10 </h2>
+    <p id="mensagem">  "Não temas, porque eu sou contigo; <br>
+                não te assombres, porque eu sou teu Deus; eu te fortaleço, e te ajudo, <br>
+                e te sustento com a destra da minha justiça." </p></p>
+    <button onclick="fecharPopup()"> Fechar </button>
+</div>
     <script src="script.js"></script>
 
 </body>
